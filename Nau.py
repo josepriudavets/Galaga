@@ -18,15 +18,22 @@ def main():
         if op=='d':
             pass
             #sumar 1 a la variable posX
+            posx = posX + 1
         elif op=='a':
             pass
             #restar 1 a la variable posX
+            posx = posX - 1
+
         elif op=='w':
             pass
             #sumar 1 a la variable posY
+            posy = posY + 1
+
         elif op=='s':
             pass
             #restar 1 a la variable posY
+            posy = posY - 1
+            
         elif op=='0':
             sortir=True
             print("Has sortit de la nau")
